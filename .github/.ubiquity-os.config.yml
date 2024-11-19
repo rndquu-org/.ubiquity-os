@@ -3,7 +3,7 @@ plugins:
       - plugin: https://ubiquity-os-command-start-stop-development.ubiquity.workers.dev
         with:
           reviewDelayTolerance: 1 Day
-          taskStaleTimeoutDuration: 30 Days
+          taskStaleTimeoutDuration: 31 Days
           startRequiresWallet: true
           maxConcurrentTasks:
             member: 10
