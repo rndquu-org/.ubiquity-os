@@ -26,7 +26,7 @@ plugins:
         with:
           logLevel: info
           evmNetworkId: 100
-          evmPrivateEncrypted: "123"
+          evmPrivateEncrypted: "1"
           erc20RewardToken: "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d"
           incentives:
             file: undefined
