@@ -1,13 +1,1 @@
-plugins:
-  - uses:
-      - plugin: https://ubiquibot-assistive-pricing-development.ubiquity.workers.dev
-        with:
-          globalConfigUpdate:
-            excludeRepos: []
-          labels:
-            time: []
-            priority: []
-          basePriceMultiplier: 1
-          publicAccessControl:
-            setLabel: false
-            fundExternalClosedIssue: false
+plugins: []
