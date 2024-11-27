@@ -21,3 +21,15 @@ plugins:
       - plugin: https://command-query-user-development.ubiquity.workers.dev
         with:
           allowPublicQuery: true
+  - uses:
+      - plugin: https://ubiquibot-assistive-pricing-development.ubiquity.workers.dev
+        with:
+          globalConfigUpdate:
+            excludeRepos: []
+          labels:
+            time: []
+            priority: []
+          basePriceMultiplier: 1
+          publicAccessControl:
+            setLabel: false
+            fundExternalClosedIssue: false
