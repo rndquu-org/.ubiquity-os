@@ -1,1 +1,5 @@
-plugins: []
+plugins:
+  - uses:
+      - plugin: https://ubiquity-os-command-query-user-development.ubiquity.workers.dev
+        with:
+          allowPublicQuery: true
