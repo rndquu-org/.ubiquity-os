@@ -3,3 +3,7 @@ plugins:
       - plugin: https://ubiquity-os-command-query-user-development.ubiquity.workers.dev
         with:
           allowPublicQuery: false
+  - uses:
+      - plugin: https://ubiquity-os-command-wallet-development.ubiquity.workers.dev
+        with:
+          registerWalletWithVerification: false
